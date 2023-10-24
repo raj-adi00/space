@@ -1,0 +1,263 @@
+.top {
+    /* border: 2px solid black; */
+    overflow: auto;
+    margin: 40px 0px;
+    background-color: #b24f4fed;
+    color: white;
+    opacity: 0.9;
+    width: 100%;
+     height: 85px;
+}
+
+body {
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 182%;
+    box-sizing: border-box;
+}
+
+.top .logo a img {
+    height: 81px;
+    width: 54px;
+    /* border: 2px solid black; */
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 42px;
+    
+}
+
+#left {
+    text-decoration: none;
+    color: white;
+    /* border: 2px solid black; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 28px;
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+    /* border: 2px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    height: 77px;
+    width: 108px;
+    text-align: center;
+    line-height: 64px;
+}
+.menu:hover{
+    background-color: rgb(72, 34, 34);
+
+}
+nav {
+    /* border: 2px solid black; */
+    float: right;
+    margin-right: 20px;
+    width: 1705px;
+    height: 85px;
+}
+
+.logo {
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 280px;
+margin-left: 400px;
+}
+
+.nav {
+    display: inline-block;
+    width: 921px;
+    /* border: 2px solid black; */
+    height: 85px;
+    position: relative;
+    bottom: 16px;
+    margin-left: 42px;
+}
+
+
+#name{
+    /* border: solid 2px black; */
+    margin: auto 10px;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.top .logo a img{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#hom{
+    background-color: #1d1b1b;
+    
+}
+.missil{
+    height: 463px;
+    width: 243px;
+    position: absolute;
+    left: 380px;
+    top: 196px;
+    rotate: 20;
+}
+.name{
+  /* border: 2px solid black;   */
+  display: inline-block;
+  width: 662px;
+  height: 250px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 85px;
+  position: absolute;
+  right: 100px;
+  top: 263px;
+}
+.btn{
+   
+    background-color: black;
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 193px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 454px;
+    right: 342px
+}
+.btn:hover{
+    background-color: red;
+}
+.project{
+/* border:2px solid black; */
+position: absolute;
+top: 666px;
+left:300px;
+text-align:center;
+font-family: cursive;
+font-size: 24px;
+color: white;
+background-color: #b24f4fed;
+}
+.project h3{
+line-height: 0px;
+margin-bottom: 15px;
+}
+.mission{
+    /* border: 2px solid black; */
+    background-color: #642e2e;
+    position: absolute;
+    top: 875px;
+    /* left: 219px; */
+    margin: auto;
+    width: 100%;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+text-align: center;
+padding: 2%;
+box-sizing: border-box;
+
+}
+.mission h2{
+    line-height: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.mission p{
+    font-stretch: semi-condensed;
+    font-family: cursive;
+}
+.video{
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* border: 2px solid black; */
+    
+    line-height: 25px;
+    background-color: black;
+    text-align: center;
+    width: 500px;
+    display: inline-block;
+    float: left;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding:10px 200px;
+    font-size: 30px;
+}
+.video a img{
+    width: 439px;
+    height: 307px;
+}
+.intro{
+    
+    position: absolute;
+    top: 1062px;
+    padding: 20px;
+    background-color: black;
+    /* border: 2px solid black; */
+    overflow: auto;
+    width: 100%;
+}
+.read{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    /* border: 2px solid black; */
+    background-color: #5a1717;
+    width: 106px;
+    height: 22px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+}
+.blog{
+    display: inline-block;
+    width: 550px;
+
+}
+.planet{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+.web{
+    display: inline-block;
+}
+.headline{
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 48px;
+    left: 21px;
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 10px;
+}
+.blog{
+    display: inline-block;
+    float: right;
+    padding-top: 25px;
+    padding-right: 40px;
+}
+.blog h4{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    font-size: 30px;
+    line-height: 25px;
+}
+.web img{
+    height: 76px;
+    width: 104px;
+}
+.read{
+    position: relative;
+    top: 2px;
+}
+.satellite{
+    margin-top: 20px;
+
+}
